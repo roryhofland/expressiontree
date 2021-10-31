@@ -2,13 +2,6 @@ from expression_tree import ExprTree, construct_from_list
 from expression_tree_puzzle import ExpressionTreePuzzle
 from solver import BfsSolver, DfsSolver
 
-
-# Below is an incomplete set of tests: these tests are mostly the provided
-# doctest examples.
-#
-# We encourage you to write additional test cases and test your own code,
-# using the provided test cases as a template!
-
 def test_expression_tree_eval_doctest() -> None:
     """Test ExprTree.eval on the provided doctest"""
     exp_t = ExprTree('+', [ExprTree(3, []),
